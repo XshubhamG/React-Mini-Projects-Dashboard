@@ -1,31 +1,38 @@
+import img1 from '../images/01-Birthdays-App.png';
+import img2 from '../images/02-Tours.png';
+import img3 from '../images/03-Reviews.png';
+import img4 from '../images/04-Accordians.png';
+import img5 from '../images/05-Menu.png';
+
+
 const projects = [
     {
         id: '01',
-        img: "./src/images/01-Birthdays-App.png",
+        img: img1,
         url: "https://01-project-react.surge.sh",
         title: "Birthdays Reminder",
     },
     {
         id: '02',
-        img: "./src/images/02-Tours.png",
+        img: img2,
         url: "https://02-project-react.surge.sh",
         title: "Tours",
     },
     {
         id: '03',
-        img: "./src/images/03-Reviews.png",
+        img: img3,
         url: "https://03-project-react.surge.sh",
         title: "Reviews",
     },
     {
         id: '04',
-        img: "./src/images/04-Accordians.png",
+        img: img4,
         url: "https://04-project-react.surge.sh",
         title: "Accordians",
     },
     {
         id: '05',
-        img: "./src/images/05-Menu.png",
+        img: img5,
         url: "https://05-project-react.surge.sh",
         title: "Menu",
     },
