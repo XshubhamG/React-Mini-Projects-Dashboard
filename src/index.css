@@ -116,6 +116,8 @@ a {
 /** Main  */
 
 main {
+  width: calc(100% - 4rem);
+  margin-inline: auto;
   margin-block: 2rem;
   display: flex;
   flex-direction: column;
@@ -127,7 +129,7 @@ main {
   margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  gap: 1.5rem;
+  column-gap: 2rem;
 
   div {
     display: flex;
@@ -161,8 +163,6 @@ main {
 }
 
 main > section {
-  width: calc(100% - 4rem);
-  margin-inline: auto;
   display: flex;
   flex-direction: column;
   gap: 2rem;
