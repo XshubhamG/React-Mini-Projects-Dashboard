@@ -4,6 +4,7 @@ import img3 from '../images/03-Reviews.png';
 import img4 from '../images/04-Accordians.png';
 import img5 from '../images/05-Menu.png';
 import img7 from "../images/07-Slider.png";
+import img8 from "../images/08-lorem-ipsum.png";
 
 
 const projects = [
@@ -43,6 +44,12 @@ const projects = [
         url: "https://07-project-react.surge.sh",
         title: "Slider",
     },
+    {
+        id: '08',
+        img: img8,
+        url: "https://08-project-react.surge.sh",
+        title: "lorem Ipsum",
+    }
 ]
 
 export default projects;
