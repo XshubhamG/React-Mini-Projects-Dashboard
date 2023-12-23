@@ -5,6 +5,7 @@ import img4 from '../images/04-Accordians.png';
 import img5 from '../images/05-Menu.png';
 import img7 from "../images/07-Slider.png";
 import img8 from "../images/08-lorem-ipsum.png";
+import img9 from "../images/09-color-generator.png"
 
 
 const projects = [
@@ -49,6 +50,12 @@ const projects = [
         img: img8,
         url: "https://08-project-react.surge.sh",
         title: "lorem Ipsum",
+    },
+    {
+        id: '09',
+        img: img9,
+        url: "https://09-project-react.surge.sh",
+        title: "color generator",
     }
 ]
 
