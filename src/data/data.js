@@ -6,6 +6,8 @@ import img5 from '../images/05-Menu.png';
 import img7 from "../images/07-Slider.png";
 import img8 from "../images/08-lorem-ipsum.png";
 import img9 from "../images/09-color-generator.png"
+import img10 from "../images/10-grocery-bud.png"
+import img11 from "../images/11-image-search.png"
 
 
 const projects = [
@@ -56,6 +58,18 @@ const projects = [
         img: img9,
         url: "https://09-project-react.surge.sh",
         title: "color generator",
+    },
+    {
+        id: '10',
+        img: img10,
+        url: "https://10-project-react.surge.sh",
+        title: "grocery bud",
+    },
+    {
+        id: '11',
+        img: img11,
+        url: "https://11-project-react.surge.sh",
+        title: "Image Search",
     }
 ]
 
